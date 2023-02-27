@@ -13,9 +13,9 @@ const ProductImage = ({name, title, currentColor}) => {
 }
 
 ProductImage.porpTypes = {
-    name: propTypes.string,
-    title: propTypes.string,
-    currentColor: propTypes.string,
+    name: propTypes.string.isRequired,
+    title: propTypes.string.isRequired,
+    currentColor: propTypes.string.isRequired,
 }
 
 export default ProductImage;

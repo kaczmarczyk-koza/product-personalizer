@@ -19,13 +19,13 @@ const ProductOption = ({submitHandler, sizes, currentSize, setCurrentSize, color
 };
 
 ProductOption.propTypes = {
-  handleSubmit: PropTypes.func,
-  sizes: PropTypes.array,
-  currentSize: PropTypes.string,
-  setCurrentSize: PropTypes.func,
-  colors: PropTypes.array,
-  currentColor: PropTypes.string,
-  setCurrentColor: PropTypes.func,
+  handleSubmit: PropTypes.func.isRequired,
+  sizes: PropTypes.array.isRequired,
+  currentSize: PropTypes.string.isRequired,
+  setCurrentSize: PropTypes.func.isRequired,
+  colors: PropTypes.array.isRequired,
+  currentColor: PropTypes.string.isRequired,
+  setCurrentColor: PropTypes.func.isRequired,
 };
 
 export default ProductOption;

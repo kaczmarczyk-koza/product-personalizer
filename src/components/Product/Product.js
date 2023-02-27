@@ -45,12 +45,12 @@ const Product = ({name, title, basePrice, colors, sizes}) => {
 };
 
 Product.propTypes = {
-  id: PropTypes.number,
-  name: PropTypes.string,
-  title: PropTypes.string,
-  basePrice: PropTypes.number,
-  colors: PropTypes.array,
-  sizes: PropTypes.array,
+  id: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  basePrice: PropTypes.number.isRequired,
+  colors: PropTypes.array.isRequired,
+  sizes: PropTypes.array.isRequired,
 }
 
 export default Product;
